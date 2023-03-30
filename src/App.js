@@ -5,22 +5,32 @@ import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 const tasks = [
-    { id: 1, content: "elo elo", done: false },
-    { id: 2, content: "pięć dwa zero", done: true },
+    { id: 1, content: "Zjeść obiad", done: false },
+    { id: 2, content: "Umyć naczycia", done: true },
 ];
 const hideDoneTask = false;
 
 function App() {
-  return (
-    <Container>
-   <Header title="Lista zadań" />
-    <Section title="Dodaj nowe zadanie" body={<Form />} />
-   <Section title="Lista zadań" body={ <Tasks tasks={tasks} hideDoneTask={hideDoneTask} />}
-   ExContent={<Buttons tasks={tasks} hideDoneTask={hideDoneTask} />} 
-   />
+    return ( <
+            Container >
+            <
+            Header title = "Lista zadań" / >
+            <
+            Section title = "Dodaj nowe zadanie"
+            body = { < Form / > }
+            /> <
+            Section title = "Lista zadań"
+            body = { < Tasks tasks = { tasks }
+                hideDoneTask = { hideDoneTask }
+                />}
+                ExContent = { < Buttons tasks = { tasks }
+                    hideDoneTask = { hideDoneTask }
+                    />}  /
+                    >
 
-</Container>
-  );
-}
+                    <
+                    /Container>
+                );
+            }
 
-export default App;
+            export default App;
