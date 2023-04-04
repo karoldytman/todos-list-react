@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css"
 const Buttons = ({ tasks, hideDoneTask, toggleHideDoneTask }) => (
     <div className="buttons">
-        {tasks.length > 0 && (
+        { tasks.length > 0 && (
             <>
            <button onClick={toggleHideDoneTask} className="buttons__button hideShowButton">
     {hideDoneTask === false ? "Pokaż" : "Ukryj"} ukończone
@@ -13,7 +13,7 @@ const Buttons = ({ tasks, hideDoneTask, toggleHideDoneTask }) => (
     Ukończ wszystkie
     </button>
     </>
-        )}
+        )};
     </div>
     );
 
