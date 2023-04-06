@@ -27,6 +27,6 @@
     }
 }
 
-.completeAllButton:disabled {
+.buttons__button:disabled {
     color: rgb(203, 201, 201)
 }

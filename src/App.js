@@ -26,7 +26,7 @@ const toggleTaskDone = (id) => {
 
     return task;
   }));
-}
+};
 const setAllDone = () => {
   setTasks(tasks => tasks.map(task => ({...task, done: true,})))
 };
@@ -49,9 +49,10 @@ id: tasks.length === 0 ? 1 : task[task.length - 1].id + 1,
     hideDoneTask={hideDoneTask}
     removeTask={removeTask} 
     toggleTaskDone={toggleTaskDone} />}
-   ExContent={<Buttons 
+    exContent={<Buttons 
     tasks={tasks} hideDoneTask={hideDoneTask} 
-    toggleHideDoneTask={toggleHideDoneTask} setAllDone={setAllDone} />} 
+    toggleHideDoneTask={toggleHideDoneTask} setAllDone={setAllDone} />
+  } 
   />
 
 </Container>
