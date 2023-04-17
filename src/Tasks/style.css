@@ -24,7 +24,7 @@
 
 .tasks__button--done {
     background-color: green;
-    transition: 2s;
+    transition: 1s;
 }
 
 .tasks__button--done:hover {

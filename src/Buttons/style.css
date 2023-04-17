@@ -13,7 +13,7 @@
     color: teal;
     background-color: white;
     font-size: 15px;
-    transition: 1s;
+    transition: 0,5s;
 }
 
 .buttons__button:hover {
