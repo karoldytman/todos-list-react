@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.css";
 const Buttons = ({ tasks, hideDoneTask, toggleHideDoneTask, setAllDone }) => (
   <div className="buttons">
