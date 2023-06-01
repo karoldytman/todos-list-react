@@ -5,7 +5,7 @@
 ## ⚒️ My work 🤛
  👉:https://karoldytman.github.io/todos-list-react/ 👈:
 
-### 📜✒️ Description 📚
+## 📜✒️ Description 📚
 
 In this project I present an application that will facilitate everyday tasks. 
 The task list is mainly based on the JS language It allows you to add new tasks, 
@@ -13,7 +13,7 @@ mark them as done and remove them from the list.
 
 <img src = https://github.com/karoldytman/task-list/blob/main/images/AnimationToDoTasks4.gif>
 
-### ⚙️ Technologies used in the project
+## ⚙️ Technologies used in the project:
 
    - HTML
    - CSS
@@ -25,7 +25,10 @@ mark them as done and remove them from the list.
    - Immutability
    - Node.js
    - React
-### Available Scripts
+## 😃 Do not forget to see my homepage ❕
+   ⏯️ https://github.com/karoldytman 👀☕
+   
+### Available Scripts:
 
 #### `npm start`
 
