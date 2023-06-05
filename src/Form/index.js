@@ -25,7 +25,7 @@ const Form = ({ addNewTask }) => {
         placeholder="Co jest do zrobienia?"
         onChange={({ target }) => setNewTaskContent(target.value)}
       />
-      <Buttons className="form__button">Dodaj zadanie</Buttons>
+      <Buttons>Dodaj zadanie</Buttons>
     </StyleForm>
   );
 };
