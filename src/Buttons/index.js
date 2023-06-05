@@ -1,7 +1,7 @@
 
-import { Common, Button } from "./styled";
+import { StyledButtons, Button } from "./styled";
 const Buttons = ({ tasks, hideDoneTask, toggleHideDoneTask, setAllDone }) => (
-  <Common>
+  <StyledButtons>
     {tasks.length > 0 && (
       <>
         <Button onClick={toggleHideDoneTask}>
@@ -9,14 +9,13 @@ const Buttons = ({ tasks, hideDoneTask, toggleHideDoneTask, setAllDone }) => (
         </Button>
         <Button
           onClick={setAllDone}
-          className="buttons__button"
           disabled={tasks.every(({ done }) => done)}
         >
           Ukończ wszystkie
         </Button>
       </>
     )}
-  </Common>
+  </StyledButtons>
 );
 
 export default Buttons;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Common = styled.div`
+export const StyledButtons = styled.div`
     display: flex;
     flex-wrap: wrap;
     margin-right: 15px;
