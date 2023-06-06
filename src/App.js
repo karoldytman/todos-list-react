@@ -6,7 +6,6 @@ import Header from "./Header";
 import Container from "./Container";
 import { useTask } from "./useTask";
 function App() {
-
   const {
     tasks,
     hideDoneTask,
@@ -17,7 +16,6 @@ function App() {
     toggleHideDoneTask,
   } = useTask();
 
- 
   return (
     <Container>
       <Header title="Lista zadań" />

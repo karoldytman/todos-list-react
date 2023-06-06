@@ -42,11 +42,11 @@ export const Button = styled.button`
     css`
       background-color: green;
       transition: 1s;
-    
-  &:hover {
-    background-color: rgb(57, 195, 57);
-  }
-`}
+
+      &:hover {
+        background-color: rgb(57, 195, 57);
+      }
+    `}
 
   ${({ remove }) =>
     remove &&
@@ -57,10 +57,10 @@ export const Button = styled.button`
       background-color: red;
       color: ${({ theme }) => theme.color.white};
       transition: 1s;
-    
-  &:hover {
-    background-color: rgb(251, 97, 97);
-    transform: rotate(360deg);
-  }
-  `}
+
+      &:hover {
+        background-color: rgb(251, 97, 97);
+        transform: rotate(360deg);
+      }
+    `}
 `;

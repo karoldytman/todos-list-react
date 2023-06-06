@@ -8,18 +8,18 @@ const Form = ({ addNewTask }) => {
   const onFormSubmit = (event) => {
     event.preventDefault();
 
-    const  contentTrimmed = newTaskContent.trim();
+    const contentTrimmed = newTaskContent.trim();
 
     if (contentTrimmed !== "") {
       addNewTask(contentTrimmed);
       setNewTaskContent("");
       inputRef.current.focus();
-    };
+    }
   };
   return (
     <StyleForm onSubmit={onFormSubmit}>
       <Input
-      ref={inputRef}
+        ref={inputRef}
         value={newTaskContent}
         className="form__input"
         placeholder="Co jest do zrobienia?"
