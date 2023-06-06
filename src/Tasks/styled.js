@@ -9,7 +9,7 @@ export const Item = styled.li`
   display: grid;
   align-items: center;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid ${({ theme }) => theme.color.gallery};
   margin: 10px 0px 0px 0px;
   grid-template-columns: auto 1fr auto;
   grid-gap: 10px;
@@ -34,7 +34,7 @@ export const Button = styled.button`
   height: 30px;
   border: none;
   padding: 0px;
-  color: white;
+  color: ${({ theme }) => theme.color.white};
   cursor: pointer;
 
   ${({ toggleDone }) =>
@@ -55,7 +55,7 @@ export const Button = styled.button`
       height: 30px;
       border: none;
       background-color: red;
-      color: white;
+      color: ${({ theme }) => theme.color.white};
       transition: 1s;
     
   &:hover {

@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyleSection = styled.body`
     margin: 10px;
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: ${({ theme }) => theme.color.white};
+    border: 1px solid ${({ theme }) => theme.color.gallery};
 `;
 
 export const Title = styled.h2`
@@ -18,10 +18,10 @@ export const Header = styled.header`
     justify-content: space-between;
     align-items: center;
     grid-gap: 10px;
-    border-bottom: 1.5px solid #ddd;
+    border-bottom: 1.5px solid ${({ theme }) => theme.color.gallery};
     margin-left: 15px;
 
-@media (max-width:767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
         padding-bottom: 25px;
         grid-gap: 5px;

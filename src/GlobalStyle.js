@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #ddd;
+    background: ${({ theme }) => theme.color.gallery};
     word-break: break-word;
     font-family: 'Montserrat', sans-serif;
 }

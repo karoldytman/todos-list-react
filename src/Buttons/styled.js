@@ -9,13 +9,13 @@ export const StyledButtons = styled.div`
 export const Button = styled.button`
     margin: 0 0 0 20px;
     border: none;
-    color: teal;
-    background-color: white;
+    color: ${({ theme }) => theme.color.teal};
+    background-color: ${({ theme }) => theme.color.white};
     font-size: 15px;
     transition: 0,5s;
     cursor: pointer;
 
-    @media (max-width:767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         flex-basis: 100%;
         margin: 10px;
     }

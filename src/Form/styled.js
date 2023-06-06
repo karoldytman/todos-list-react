@@ -6,9 +6,9 @@ export const StyleForm = styled.form`
     grid-gap: 20px;
     align-content: center;
     padding: 15px;
-    background-color: white;
+    background-color: ${({ theme }) => theme.color.white};
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
@@ -17,14 +17,14 @@ export const StyleForm = styled.form`
 export const Input = styled.input`
     flex-grow: 1;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid ${({ theme }) => theme.color.gallery};
     margin: 10px;
 `;
 
 export const Buttons = styled.button`
     padding: 10px;
-    background-color: teal;
-    color: white;
+    background-color: ${({ theme }) => theme.color.teal};
+    color: ${({ theme }) => theme.color.white};
     border: none;
     margin: 10px;
     cursor: pointer;
