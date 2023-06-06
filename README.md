@@ -1,18 +1,19 @@
-## To Do List
+# Task List with YouCode!
 
+## I'II tell you how I did it❔☺️
 
-## Demo
- https://karoldytman.github.io/todos-list-react/
+## ⚒️ My work 🤛
+ 👉:https://karoldytman.github.io/todos-list-react/ 👈:
 
-### Description
+## 📜✒️ Description 📚
 
-In this project I present an application that will facilitate everyday tasks 
+In this project I present an application that will facilitate everyday tasks. 
 The task list is mainly based on the JS language It allows you to add new tasks, 
 mark them as done and remove them from the list.
 
 <img src = https://github.com/karoldytman/task-list/blob/main/images/AnimationToDoTasks4.gif>
 
-#### Technologies used in the project
+## ⚙️ Technologies used in the project:
 
    - HTML
    - CSS
@@ -24,9 +25,12 @@ mark them as done and remove them from the list.
    - Immutability
    - Node.js
    - React
+## 😃 Do not forget to see my homepage ❕
+   ⏯️ https://github.com/karoldytman 👀☕
+   
+### Available Scripts:
 
-
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
